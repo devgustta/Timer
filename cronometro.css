@@ -1,0 +1,50 @@
+main{
+	text-align: center;
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	height: 30px;
+}
+
+button{
+	border: none;
+	border-radius: 5px;
+	height: 2.2em;
+	width: 5em;
+	margin-left: 5px;
+}
+
+.start-btn{
+	background-color: red;
+	color: white;
+}
+
+.start-btn:hover{
+	transition-duration: 0.5s;
+	background-color: darkred;
+}
+
+.pause-btn{
+	background-color: blue;
+	color: white;
+}
+
+.pause-btn:hover{
+	transition-duration: 0.5s;
+	background-color: darkblue;
+}
+
+.stop-btn{
+	background-color: green;
+	color: white;
+}
+
+.stop-btn:hover{
+	transition-duration: 0.5s;
+	background-color: darkgreen;
+}
